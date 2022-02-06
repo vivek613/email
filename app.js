@@ -24,8 +24,8 @@ app.post("/sendemail", (req, res) => {
   var transporter = nodemailer.createTransport({
     //  host: "localhost",
     //  port:587,
-    service:'gmail',
-    secure:false,
+    service: "gmail",
+    secure: false,
 
     auth: {
       user: "vicoder77@gmail.com",
